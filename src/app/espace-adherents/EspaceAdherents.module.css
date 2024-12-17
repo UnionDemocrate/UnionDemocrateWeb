@@ -1,0 +1,96 @@
+.container {
+  padding: 2rem 0;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--primary-color);
+}
+
+.card {
+  margin-bottom: 2rem;
+}
+
+.card h2 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.infoList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.infoList li {
+  margin-bottom: 0.5rem;
+}
+
+.infoList strong {
+  font-weight: 600;
+  color: var(--text-color-light);
+}
+
+.subscriptionInfo h3 {
+  margin-top: 1.5rem;
+  color: var(--primary-color);
+}
+
+.productList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.productCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.changeSubscriptionButton {
+  align-self: flex-start;
+  margin-top: 1rem;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.cancelButton {
+  background-color: var(--warning-color);
+  color: var(--text-color);
+}
+
+.cancelButton:hover {
+  background-color: #e0a800;
+}
+
+.logoutButton {
+  background-color: var(--error-color);
+}
+
+.logoutButton:hover {
+  background-color: #c82333;
+}
+
+.subscribeLink {
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .buttonContainer {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .buttonContainer button {
+    width: 100%;
+  }
+}
+
