@@ -304,7 +304,7 @@ export default function EspaceAdherents() {
             <p><strong>Prénom :</strong> {profile?.prenom || 'Non renseigné'}</p>
             <p><strong>Email :</strong> {user.email}</p>
             <p><strong>Statut d'adhésion :</strong> {profile?.is_adherent ? 'Actif' : 'Inactif'}</p>
-            <button onClick={handleEdit}>Modifier</button>
+            <button className='btn' onClick={handleEdit}>Modifier vos informations</button>
           </>
         )}
       </div>
