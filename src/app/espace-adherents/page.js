@@ -265,8 +265,6 @@ export default function EspaceAdherents() {
   if (!user) {
     return (
       <div className={`${styles.container} fade-in`}>
-        <h1>Connexion requise</h1>
-        <p>Veuillez vous connecter ou vous inscrire pour accéder à l'espace adhérent.</p>
         <Auth />
       </div>
     )
