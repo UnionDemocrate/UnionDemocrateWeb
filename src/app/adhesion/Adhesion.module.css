@@ -17,7 +17,7 @@
   min-width: 850px;
   padding: 50px;
   border-radius: 24px;
-  border: 1px solid #24AB6A;
+  border: 1px solid #0074E4;
   background: #FFF;
   box-shadow: -6px -6px 10px 0px rgba(171, 171, 171, 0.25), 6px 6px 10px 0px rgba(171, 171, 171, 0.25);
   display: grid;
@@ -54,8 +54,8 @@
   width: 100%;
   padding: 14px 0;
   border-radius: 12px;
-  border: 1px solid #24AB6A;
-  background: linear-gradient(0deg, rgba(95, 255, 20, 0.20) 0%, rgba(95, 255, 20, 0.20) 100%), #24AB6A;
+  border: 1px solid #0074E4;
+  background: #0074E4;
 }
 
 .errorMessage {
