@@ -137,12 +137,11 @@ export default function Adhesion() {
 
   return (
     <div className={`${styles.container} fade-in`}>
-      <h1>Choisissez votre abonnement</h1>
+      <h1>Choix du montant</h1>
       <div className={styles.productList}>
         {products.map((product) => (
           <div key={product.id} className={`${styles.card} ${styles.productCard}`}>
             <h2>{product.name}</h2>
-            <p>{product.description}</p>
             {product.price !== null && (
               <p className={styles.price}>
                 {product.price} {product.currency?.toUpperCase()}
