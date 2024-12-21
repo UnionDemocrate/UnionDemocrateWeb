@@ -228,7 +228,7 @@ export default function Auth() {
             />
           </>
         )}
-        <div className={styles.passwordInputWrapper}>
+<div className={styles.passwordInputWrapper}>
   <input
     type={showPassword ? "text" : "password"}
     placeholder="Mot de passe"
