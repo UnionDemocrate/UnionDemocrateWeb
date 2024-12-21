@@ -52,10 +52,11 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  color: white;
   padding: 14px 0;
   border-radius: 12px;
-  border: 1px solid #0074E4;
   background: #0074E4;
+  cursor: pointer;
 }
 
 .errorMessage {
