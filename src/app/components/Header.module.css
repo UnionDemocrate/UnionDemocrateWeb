@@ -42,6 +42,7 @@
 
 .cta {
   border-radius: 14px;
+  padding: 10px 20px;
   border: 1px solid #24AB6A;
   background: linear-gradient(0deg, #FFF 0%, #FFF 100%), rgba(255, 255, 255, 0.08);
   transition: background-color var(--transition-speed) ease;
