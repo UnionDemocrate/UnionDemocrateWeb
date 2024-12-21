@@ -1,5 +1,5 @@
 .container {
-  min-width: 800px;
+
   padding: 2rem 0;
   display: flex;
   align-items: center;
@@ -13,6 +13,7 @@
 }
 
 .card {
+  min-width: 800px;
   margin-bottom: 2rem;
 }
 
