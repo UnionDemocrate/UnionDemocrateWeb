@@ -41,15 +41,14 @@
 }
 
 .cta {
-  background-color: var(--primary-color);
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
+  border-radius: 14px;
+  border: 1px solid #24AB6A;
+  background: linear-gradient(0deg, #FFF 0%, #FFF 100%), rgba(255, 255, 255, 0.08);
   transition: background-color var(--transition-speed) ease;
 }
 
 .cta:hover {
-  background-color: var(--primary-color-dark);
+  background: #f1f1f1;
 }
 
 @media (max-width: 768px) {
