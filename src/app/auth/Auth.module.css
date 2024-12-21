@@ -30,8 +30,11 @@
   border-radius: 4px;
 }
 
-.form button, .googleButton {
+.form button, .googleButton, .forgotPasswordButton{
   padding: 10px 20px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 700;
   background: #24AB6A;
   color: white;
   border: none;
@@ -39,8 +42,8 @@
   cursor: pointer;
 }
 
-.form button:hover, .googleButton:hover {
-  background-color: #0056b3;
+.form button:hover {
+  background-color: #21965E;
 }
 
 .googleButton {
