@@ -52,11 +52,13 @@
 
 .googleButton {
   margin-top: 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.20);
   background: rgba(0, 0, 0, 0.08);
 }
 
 .googleButton:hover {
-  background-color: #357ae8;
+  background: rgba(236, 236, 236, 0.08);
 }
 
 .switchMode {
