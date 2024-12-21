@@ -14,6 +14,7 @@ export default function Auth() {
   const [isSignUp, setIsSignUp] = useState(false)
   const [message, setMessage] = useState('')
   const [loading, setLoading] = useState(false)
+  const [showPassword, setShowPassword] = useState(false)
   const router = useRouter()
 
   const createProfile = async (userId, userData) => {
@@ -198,15 +199,6 @@ export default function Auth() {
     }
   }
 
-  const showPassword = async () => {
-    var x = document.getElementById("myInput");
-    if (x.type === "password") {
-      x.type = "text";
-    } else {
-      x.type = "password";
-    }
-  }
-
   return (
     <div className={styles.container}>
       <h1 className={styles.titleContainer}>{isSignUp ? 'Inscription' : 'Connectez vous !'}</h1>
@@ -237,21 +229,21 @@ export default function Auth() {
           </>
         )}
         <div className={styles.passwordInputWrapper}>
-          <input
-            type={showPassword ? "text" : "password"}
-            placeholder="Mot de passe"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-          />
-          <button
-            type="button"
-            onClick={() => setShowPassword(!showPassword)}
-            className={styles.showPasswordButton}
-          >
-            {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
-          </button>
-        </div>
+  <input
+    type={showPassword ? "text" : "password"}
+    placeholder="Mot de passe"
+    value={password}
+    onChange={(e) => setPassword(e.target.value)}
+    required
+  />
+  <button
+    type="button"
+    onClick={() => setShowPassword(!showPassword)}
+    className={styles.showPasswordButton}
+  >
+    {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
+  </button>
+</div>
         <button type="submit" disabled={loading}>
           {loading ? 'Chargement...' : (isSignUp ? 'S\'inscrire' : 'Se connecter')}
         </button>
