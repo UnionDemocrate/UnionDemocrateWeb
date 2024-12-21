@@ -199,7 +199,7 @@ export default function Auth() {
 
   return (
     <div className={styles.container}>
-      <h1>{isSignUp ? 'Inscription' : 'Connexion'}</h1>
+      <h1 className={styles.titleContainer}>{isSignUp ? 'Inscription' : 'Connectez vous !'}</h1>
       <form onSubmit={handleSubmit} className={styles.form}>
         <input
           type="email"

@@ -9,6 +9,15 @@
   box-shadow: -6px -6px 10px 0px rgba(171, 171, 171, 0.25), 6px 6px 10px 0px rgba(171, 171, 171, 0.25);
 }
 
+.titleContainer{
+  font-size: 40px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #24AB6A 13.88%, #21CA05 149.18%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .form {
   display: flex;
   flex-direction: column;
