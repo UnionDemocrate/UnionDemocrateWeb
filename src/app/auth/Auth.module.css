@@ -78,3 +78,22 @@
   text-align: center;
   color: #0074E4;
 }
+
+.passwordInputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.showPasswordButton {
+  position: absolute;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-color-light);
+}
+
+.showPasswordButton:hover {
+  color: var(--text-color);
+}
