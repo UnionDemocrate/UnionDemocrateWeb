@@ -132,7 +132,7 @@ export default function Adhesion() {
   }
 
   if (!user) {
-    return null // L'utilisateur sera redirigé dans useEffect
+    return null
   }
 
   return (
