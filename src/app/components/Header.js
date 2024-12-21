@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './Header.module.css';
 
 export default function Header() {
@@ -7,7 +8,7 @@ export default function Header() {
       <div className="container">
         <nav className={styles.nav}>
           <Link href="/" className={styles.logo}>
-            Union Democrate
+            <Image src="/logo.svg" alt="alt" width={55} height={42} />
           </Link>
           <div className={styles.links}>
             <Link href="/espace-adherents" className={styles.link}>

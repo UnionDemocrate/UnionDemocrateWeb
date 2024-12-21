@@ -1,6 +1,5 @@
 .header {
-  background-color: var(--background-color);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(90deg, #0088cc 0%, #1e3a8a 100%);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -27,17 +26,18 @@
 
 .links {
   display: flex;
+  align-items: center;
   gap: 1rem;
 }
 
 .link {
   text-decoration: none;
-  color: var(--text-color);
+  color: #fff;
   transition: color var(--transition-speed) ease;
 }
 
 .link:hover {
-  color: var(--primary-color);
+  color: #e4e4e4;
 }
 
 .cta {
