@@ -246,7 +246,7 @@ export default function Auth() {
         Se connecter avec Google
       </button>
       <p onClick={() => setIsSignUp(!isSignUp)} className={styles.switchMode}>
-        {isSignUp ? 'Déjà un compte ? Se connecter' : 'Pas de compte ? S\'inscrire'}
+        {isSignUp ? 'Déjà un compte ? Se connecter' : 'Vous n\'avez pas de compte ? S\'inscrire'}
       </p>
       {message && <p className={styles.message}>{message}</p>}
     </div>
