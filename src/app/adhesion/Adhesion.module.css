@@ -48,6 +48,8 @@
 }
 
 .subscribeButton {
+  border: none;
+  text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
