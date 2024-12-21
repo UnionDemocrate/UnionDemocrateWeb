@@ -4,7 +4,7 @@
   max-width: 631px;
   margin: 2rem auto;
   padding: 20px 40px;
-  border: 1px solid #24AB6A;
+  border: 1px solid #0074E4;
   border-radius: 24px;
   box-shadow: -6px -6px 10px 0px rgba(171, 171, 171, 0.25), 6px 6px 10px 0px rgba(171, 171, 171, 0.25);
 }
@@ -28,7 +28,7 @@
   gap: 8px;
   padding: 10px 14px;
   border-radius: 8px;
-  border: 1px solid #24AB6A;
+  border: 1px solid #0074E4;
   background: rgba(255, 255, 255, 0.05);
   box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
 }
@@ -38,7 +38,7 @@
   font-size: 15px;
   text-align: center;
   font-weight: 700;
-  background: #24AB6A;
+  background: #0074E4;
   color: white;
   border: none;
   border-radius: 6px;
@@ -47,7 +47,7 @@
 
 
 .form button:hover {
-  background-color: #21965E;
+  background-color: #004f98;
 }
 
 .googleButton {
@@ -75,5 +75,5 @@
 .message {
   margin-top: 1rem;
   text-align: center;
-  color: #28a745;
+  color: #0074E4;
 }
