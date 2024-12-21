@@ -238,7 +238,7 @@ export default function Auth() {
         </button>
       </form>
       {!isSignUp && (
-        <button onClick={handleForgotPassword} className={styles.forgotPasswordButton} disabled={loading}>
+        <button onClick={handleForgotPassword} className={styles.switchMode} disabled={loading}>
           Mot de passe oublié ?
         </button>
       )}
