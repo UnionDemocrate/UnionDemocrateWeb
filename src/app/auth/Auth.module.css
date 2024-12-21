@@ -22,11 +22,11 @@
 }
 
 .form button, .googleButton {
-  padding: 0.5rem;
-  background-color: #007bff;
+  padding: 10px 20px;
+  background: #24AB6A;
   color: white;
   border: none;
-  border-radius: 4px;
+  border-radius: 6px;
   cursor: pointer;
 }
 
@@ -36,7 +36,7 @@
 
 .googleButton {
   margin-top: 1rem;
-  background-color: #4285F4;
+  background: rgba(0, 0, 0, 0.08);
 }
 
 .googleButton:hover {
